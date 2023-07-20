@@ -5,7 +5,77 @@
 
 {% block content %}
 
-    <div style="background-color: green">
-        <h1>Hola Mundo</h1>
+    <div class="container bg-secondary">
+        <div class="row" style="padding: 1.5rem">
+            <div class="col-6">
+               <div class="img-container" style="width: 100%;">
+                   <img class="" src="{% static 'img/ElPalacio.jpg' %}" alt="" style="width: 100%; object-fit: cover">
+               </div>
+                <div class="price-container" style="margin-top: 15px; border-radius: 5px; background-color: white; padding: 12px 8px">
+                    <span>Desde</span>
+                    <h4> S/ 590,000 </h4>
+                    <div class="bg-secondary" style="height: 3px; margin: 1rem 0">
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3" style="display: flex; flex-direction: column; justify-content: center">
+                                    <i class="fa fa-map-marker-alt mr-2"></i>
+                                </div>
+                                <div class="col-9 row">
+                                    <span style="font-size: 12px"><b>Estado:</b></span>
+                                    <span>En Planos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3" style="display: flex; flex-direction: column; justify-content: center">
+                                    <i class="fa fa-map-marker-alt mr-2"></i>
+                                </div>
+                                <div class="col-9 row">
+                                    <span style="font-size: 12px"><b>Entrega:</b></span>
+                                    <span>15 de Agosto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3" style="display: flex; flex-direction: column; justify-content: center">
+                                    <i class="fa fa-map-marker-alt mr-2"></i>
+                                </div>
+                                <div class="col-9 row">
+                                    <span style="font-size: 12px"><b>Financiamiento:</b></span>
+                                    <span>Interbank</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="header-detail-project">
+                    <h6 class="text-primary text-uppercase font-weight-bold"><i class="fa fa-map-marker-alt mr-2"></i>Sachaca - Arequipa</h6>
+                    <h1 class="mb-4">Proyecto el Palacio</h1>
+                </div>
+                <div class="caracteristic-detail-project">
+                    <p style="font-size: 14px">
+                        Esta hermosa propiedad se encuentra ubicada en El Palacio I, Sachaca, a pocos metros de la Iglesia Mormona, dentro de una quinta privada con vigilancia las 24 horas del día.
+                        <br>Por su ubicación y posición, cuenta con un clima extraordinario donde la luz entra a la casa a lo largo del día. Está rodeada de bellos jardines florales que bordean toda la propiedad.
+                    </p>
+                    <h4 class="mb-4" style="margin-bottom: 8px !important;">Características</h4>
+                    <ul style="font-size: 12px">
+                        <li>Área: 50m2</li>
+                        <li>Dúplex</li>
+                        <li>Finamente amoblado y equipado</li>
+                        <li>Vista hacia jardín</li>
+                        <li>Sala </li>
+                        <li>Cocina integrada al comedor </li>
+                        <li>Lavandería</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 {% endblock %}
