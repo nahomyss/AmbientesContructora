@@ -8,5 +8,6 @@ urlpatterns = [
     path('post/<int:pk>/', views.post_detail, name='post_detail'),
     path('contactanos', views.contact, name='contact'),
     path('sobrenosotros', views.about, name='about'),
+    path('projectPalacio', views.detailPalacio, name='detailPalacio'),
 
 ]
